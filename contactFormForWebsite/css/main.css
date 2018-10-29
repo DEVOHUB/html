@@ -32,11 +32,11 @@ ul{
 }
 
 .wrapper{
-    box-shadow: 0 0 20px 0 rgba(22.1%, 15.8%, 57%, 0.917);
+    box-shadow: 0 0 20px 0 rgba(22.1%, 15.8%, 54%, 0.917);
 }
 .wrapper .company-info{
     text-align: center;
-    background-color: rgba(16.7%, 58.9%, 60.1%, 0.917);
+    background-color: rgba(10.7%, 58.9%, 60.1%, 0.917);
 }
 
 .wrapper .company-info ul li{
@@ -74,12 +74,12 @@ ul{
     color: white;
     border: 0;
     text-transform: uppercase;
-    /* transition: background-color 1s ease-in-out; */
+    transition: background-color 1s ease-in-out;
 }
 
 .contact-form button:hover{
     background-color: aqua;
-    color: black;
+    color: gray;
     transition: background-color 0.5s ease-in-out;
 }
 @media(min-width:800px){
